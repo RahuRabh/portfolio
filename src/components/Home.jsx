@@ -5,17 +5,18 @@ import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../assets/logo.svg";
 
 const Home = ({ ratio }) => {
-  const clientCount = useRef(null);
+  // const clientCount = useRef(null);
   const projectCount = useRef(null);
 
-  const animationClientsCount = () => {
-    animate(0, 100, {
-      duration: 1,
-      onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-    });
-  };
+  // const animationClientsCount = () => {
+  //   animate(0, 100, {
+  //     duration: 1,
+  //     onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
+  //   });
+  // };
+
   const animationProjectsCount = () => {
-    animate(0, 500, {
+    animate(0, 30, {
       duration: 1,
       onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
     });
@@ -53,7 +54,7 @@ const Home = ({ ratio }) => {
 
           <Typewriter
             options={{
-              strings: ["A Developer", "A Designer", "A Creator"],
+              strings: ["A Developer", "A Designer", "A Student"],
               autoStart: true,
               loop: true,
               cursor: "",
@@ -68,7 +69,7 @@ const Home = ({ ratio }) => {
             </a>
           </div>
 
-          <article>
+          {/* <article>
             <p>
               +
               {ratio < 2 && (
@@ -79,7 +80,7 @@ const Home = ({ ratio }) => {
               )}
             </p>
             <span>Clients</span>
-          </article>
+          </article> */}
 
           <aside>
             <article>
@@ -90,7 +91,7 @@ const Home = ({ ratio }) => {
                     ref={projectCount}
                     whileInView={animationProjectsCount}
                   >
-                    500
+                    25
                   </motion.span>
                 )}
                 
@@ -100,13 +101,14 @@ const Home = ({ ratio }) => {
 
             <article data-special>
               <p>Contact</p>
-              <span>rahurabh@gmail.com</span>
+              <span>rahurabh@gmail.com</span><br />
+              <span>+91 7033-565-21</span>
             </article>
           </aside>
         </div>
       </section>
       <section>
-        <img src={me} alt="Rahul" />
+        <img src={me} height={"25%"} alt="Rahul"/>
       </section>
       <BsChevronDown />
     </div>
