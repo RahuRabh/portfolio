@@ -2,40 +2,33 @@
     "projects": [
       {
         "date": "19/10/2022",
-        "title": "WHITEBOARD APPLICATION",
-        "description": "This is a full-stack React Application with Web Socket connections to allow collaborative whiteboarding tool, saving and restoring the sketches.",
-        "url": "https://rahul-collabwb.netlify.app/",
-        "imgSrc": "https://user-images.githubusercontent.com/63224718/195032239-3374cb87-9fdf-4a8d-9020-e3342fd56474.png"
+        "title": "Summarizer",
+        "description": "Introducing the article summarizer web application! With just a simple link to any news article, this application uses cutting-edge GPT technology to provide you with a clear and concise summary of the content.",
+        "url": "https://ai-summarizer-rho.vercel.app/",
+        "imgSrc": "https://user-images.githubusercontent.com/63224718/235830211-1d0624fa-31cd-432b-b2fa-3d8c97ce7b2b.png"
       },
   
       {
         "date": "10/1/2023",
-        "title": "Journal",
-        "description": "It’s a Journaling Web Application which implements EJS templating where one can performs CRUD operations through RESTful API’s and add new journal post. The posts are stored in a MongoDB Atlas database.",
-        "url": "https://github.com/RahuRabh/Journal",
-        "imgSrc": "https://user-images.githubusercontent.com/63224718/216813586-6511c0d5-fc64-49d8-a281-9422a671396b.png"
+        "title": "Waffle",
+        "description": "This application mimics the look and feel of the popular social media platform, allowing users to share their thoughts, like, comment and follow each other.",
+        "url": "https://waffle-rahurabh.vercel.app/",
+        "imgSrc": "https://user-images.githubusercontent.com/63224718/236598881-016d7743-9509-4ea6-b4da-dcd5823d8ecb.png"
       },
       {
         "date": "15/3/2023",
-        "title": "Crypto-Coins",
-        "description": "React App where one can check the current market rate, performance of any crypto-coin ",
+        "title": "CryptoTracker",
+        "description": "This app fetches real-time data about your favorite cryptocurrencies and presents it in a fun and easy-to-understand format.",
         "url": "https://crypto-coins-rahurabh.vercel.app/",
-        "imgSrc": "https://crypto-coins-rahurabh.vercel.app/static/media/btc.4b15d9e451a1953fd249.jpg"
+        "imgSrc": "https://user-images.githubusercontent.com/63224718/236598297-da5b49da-492a-47ad-8f84-48ba46c7cc35.png"
       },
   
       {
         "date": "25/2/2023",
-        "title": "Expense Manager",
-        "description": "React application where one can list down all their expenses and manage them.",
-        "url": "https://personal-expenses-git.netlify.app/",
-        "imgSrc": "https://user-images.githubusercontent.com/63224718/228334027-9c79b6d1-30f8-47f2-8b3e-45e3360dd8c8.png"
-      },
-      {
-        "date": "3/4/2023",
-        "title": "PORTFOLIO",
-        "description": "This is my personal portfolio website where all my works is being displayed.",
-        "url": "/",
-        "imgSrc": "https://user-images.githubusercontent.com/63224718/230017838-583ddb1b-d18e-489f-90c5-29dd5cfc13af.png"
+        "title": "WhiteBoard Application",
+        "description": "Are you looking for a fun and collaborative way to bring your design ideas to life? Look no further than the whiteboard application! This application allows you to easily sketch, save and restore your sketches. ",
+        "url": "https://rahul-collabwb.netlify.app/",
+        "imgSrc": "https://user-images.githubusercontent.com/63224718/195032239-3374cb87-9fdf-4a8d-9020-e3342fd56474.png"
       }
     ]
   }
