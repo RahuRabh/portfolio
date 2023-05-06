@@ -1,7 +1,7 @@
 {
     "projects": [
       {
-        "date": "19/10/2022",
+        "date": "25/3/2023",
         "title": "Summarizer",
         "description": "Introducing the article summarizer web application! With just a simple link to any news article, this application uses cutting-edge GPT technology to provide you with a clear and concise summary of the content.",
         "url": "https://ai-summarizer-rho.vercel.app/",
@@ -16,7 +16,7 @@
         "imgSrc": "https://user-images.githubusercontent.com/63224718/236598881-016d7743-9509-4ea6-b4da-dcd5823d8ecb.png"
       },
       {
-        "date": "15/3/2023",
+        "date": "15/2/2023",
         "title": "CryptoTracker",
         "description": "This app fetches real-time data about your favorite cryptocurrencies and presents it in a fun and easy-to-understand format.",
         "url": "https://crypto-coins-rahurabh.vercel.app/",
@@ -24,7 +24,7 @@
       },
   
       {
-        "date": "25/2/2023",
+        "date": "19/10/2022",
         "title": "WhiteBoard Application",
         "description": "Are you looking for a fun and collaborative way to bring your design ideas to life? Look no further than the whiteboard application! This application allows you to easily sketch, save and restore your sketches. ",
         "url": "https://rahul-collabwb.netlify.app/",
