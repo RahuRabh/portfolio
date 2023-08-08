@@ -24,11 +24,11 @@
       },
   
       {
-        "date": "19/10/2022",
-        "title": "WhiteBoard Application",
-        "description": "Are you looking for a fun and collaborative way to bring your design ideas to life? Look no further than the whiteboard application! This application allows you to easily sketch, save and restore your sketches. ",
-        "url": "https://rahul-collabwb.netlify.app/",
-        "imgSrc": "https://user-images.githubusercontent.com/63224718/195032239-3374cb87-9fdf-4a8d-9020-e3342fd56474.png"
+        "date": "10/04/2023",
+        "title": "Metaverse",
+        "description": "Crafted a responsive Next.js landing with a metaverse theme, utilizing Framer Motion for animations. Translated Figma design into an interface. ",
+        "url": "https://metaverse-ai.vercel.app//",
+        "imgSrc": "https://user-images.githubusercontent.com/63224718/259162779-9ea28704-f08c-4abd-a50d-78f1b556f002.png"
       }
     ]
   }
