@@ -41,7 +41,7 @@ const NavContent = ({ setMenuOpen }) => (
       </a>
     </div>
     <a href="mailto:rahurabh@gmail.com">
-      <button>Email</button>
+      <button>Email Me</button>
     </a>
   </>
 );

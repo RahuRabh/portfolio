@@ -1,0 +1,18 @@
+{
+    "experience": [
+      {
+        "title": "Olmo Labs",
+        "role": "Full Stack Developer",
+        "duration": "5 months - Ongoing",
+        "description": "Spearheaded the development of a SEO-optimized, property rental booking application using Ionic with React and Capacitor for web and mobile platforms.",
+        "technologies": "ReactJs, Ionic, Capacitor, Git, Gitlab, Figma, Modular Css"
+      },
+      {
+        "title": "Decodr Technologies",
+        "role": "Subject Matter Expert",
+        "duration":"5 months",
+        "description": "Managed, analyzed, and reported educational data for Structured Courses. Prepared various info-graphic slide deck for delivering final insight generation.",
+        "technologies": "Python, Pandas, Numpy, Machine Learning Techniques"
+      }
+    ]
+  }

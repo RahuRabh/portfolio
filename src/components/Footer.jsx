@@ -5,13 +5,13 @@ import {
     AiFillLinkedin,
     AiOutlineArrowUp,
 } from "react-icons/ai";
-
+import dp from "../assets/DP.png"
 const Footer = () => {
   return (
     <footer>
         <div>
             <img 
-                src='https://avatars.githubusercontent.com/u/63224718?v=4'
+                src={dp}
                 alt='Myself'
             />
             <h2>Rahul Kumar</h2>
