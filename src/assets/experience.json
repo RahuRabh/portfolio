@@ -1,9 +1,9 @@
 {
     "experience": [
       {
-        "title": "Olmo Labs",
+        "title": "Hoveni",
         "role": "Full Stack Developer",
-        "duration": "5 months - Ongoing",
+        "duration": "12 months - Ongoing",
         "description": "Spearheaded the development of a SEO-optimized, property rental booking application using Ionic with React and Capacitor for web and mobile platforms.",
         "technologies": "ReactJs, Ionic, Capacitor, Git, Gitlab, Figma, Modular Css"
       },
