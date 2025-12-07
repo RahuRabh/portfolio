@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import vg from "../assets/vg.png";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
-import { addDoc, collection } from "firebase/firestore";
-import { db } from "../firebase";
-
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -14,22 +11,35 @@ const Contact = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
     setDisableBtn(true);
+
+    const formData = new FormData();
+    formData.append("access_key", "7796d7a8-2ba7-4944-9096-4fc2cd968306");
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("message", message);
+
     try {
-      await addDoc(collection(db, "contacts"), {
-        name,
-        email,
-        message,
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
       });
-      setName("");
-      setEmail("");
-      setMessage("");
-      toast.success("Message Sent");
-      setDisableBtn(false);
+
+      const data = await response.json();
+
+      if (data.success) {
+        toast.success("Message Sent");
+        setName("");
+        setEmail("");
+        setMessage("");
+      } else {
+        toast.error("Something Went Wrong");
+      }
     } catch (error) {
       toast.error("Error");
       console.log(error);
-      setDisableBtn(false);
     }
+
+    setDisableBtn(false);
   };
 
   const animations = {
@@ -58,11 +68,13 @@ const Contact = () => {
       },
     },
   };
+
   return (
     <div id="contact">
       <section>
         <motion.form onSubmit={submitHandler} {...animations.form}>
           <h2>Contact Me</h2>
+          
           <input
             type="text"
             value={name}
@@ -70,6 +82,7 @@ const Contact = () => {
             placeholder="Your Name"
             required
           />
+          
           <input
             type="email"
             placeholder="Your Email"
@@ -77,6 +90,7 @@ const Contact = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
+          
           <input
             type="text"
             placeholder="Your Message"
@@ -95,6 +109,7 @@ const Contact = () => {
           </motion.button>
         </motion.form>
       </section>
+      
       <aside>
         <img src={vg} alt="Graphics" />
       </aside>

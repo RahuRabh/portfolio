@@ -1,18 +1,25 @@
 {
-    "experience": [
-      {
-        "title": "Hoveni",
-        "role": "Full Stack Developer",
-        "duration": "12 months - Ongoing",
-        "description": "Spearheaded the development of a SEO-optimized, property rental booking application using Ionic with React and Capacitor for web and mobile platforms.",
-        "technologies": "ReactJs, Ionic, Capacitor, Git, Gitlab, Figma, Modular Css"
-      },
-      {
-        "title": "Decodr Technologies",
-        "role": "Subject Matter Expert",
-        "duration":"5 months",
-        "description": "Managed, analyzed, and reported educational data for Structured Courses. Prepared various info-graphic slide deck for delivering final insight generation.",
-        "technologies": "Python, Pandas, Numpy, Machine Learning Techniques"
-      }
-    ]
-  }
+  "experience": [
+    {
+      "title": "Hoveni",
+      "role": "Full Stack Developer",
+      "duration": "Dec 2023 – Present",
+      "description": "Built a high-performance travel-tech platform with an SEO-optimized, mobile-ready booking workflow. Improved page load by 30% through code-splitting, lazy loading, and modular React architecture. Developed secure authentication (OAuth + JWT), designed low-latency backend APIs, and integrated GA4 with custom funnels and attribution tracking.",
+      "technologies": "React, TypeScript, Ionic, Capacitor, Redux, Golang, Docker, Git, GitLab, Figma"
+    },
+    {
+      "title": "ZeroToSuccess",
+      "role": "Full Stack Developer",
+      "duration": "Oct 2025 – Present",
+      "description": "Architected SEO-ready pages for a content-heavy platform using react-helmet-async, Open Graph metadata, canonical URLs, and Twitter cards. Resolved major rendering and indexing issues in a Vite-based React setup to improve search crawler visibility. Built a complete blog system with optimized HTML rendering, loading states, and clean routing. Debugged and stabilized production deployments on Hostinger.",
+      "technologies": "React, TypeScript, Node.js, Express, SEO, Web Performance, Hostinger"
+    },
+    {
+      "title": "PMI Bangalore Chapter",
+      "role": "MERN Developer (Freelance)",
+      "duration": "July 2025 – Oct 2025",
+      "description": "Delivered a Job Portal & Blog platform with modular React architecture and pixel-accurate, responsive UI. Implemented secure role-based workflows for Users and Admins and built scalable backend APIs optimized for large datasets. Enhanced performance and UI consistency using Tailwind, custom hooks, and reusable components.",
+      "technologies": "React.js, Tailwind CSS, Node.js, Express.js, MongoDB, REST APIs"
+    }
+  ]
+}

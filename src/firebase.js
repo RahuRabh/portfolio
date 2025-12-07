@@ -10,8 +10,8 @@ const firebaseConfig = {
   authDomain: "rahurabh-portfolio.firebaseapp.com",
   projectId: "rahurabh-portfolio",
   storageBucket: "rahurabh-portfolio.appspot.com",
-  messagingSenderId: "1039746369421",
-  appId: "1:1039746369421:web:8fd96fac17ef709a7c9fc4"
+  messagingSenderId: "1039746369421000",
+  appId: "1000:1039746369421:web:8fd96fac17ef709a7c9fc4"
 };
 
 // Initialize Firebase
