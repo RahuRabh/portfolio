@@ -39,7 +39,7 @@ const NavContent = ({ setMenuOpen }) => (
       <a onClick={() => setMenuOpen(false)} href="#contact">
         Contact
       </a>
-      <a href="https://drive.google.com/file/d/1p2Yqhl89JFlW4rw9S_qmWe6oqSyXplEq/view?usp=sharing" target="_blank" rel="noreferrer">
+      <a href="https://drive.google.com/file/d/1lj8857yxPdylJpmDuNQDEAAy5dwWYQmv/view?usp=sharing" target="_blank" rel="noreferrer">
         Resume
       </a>
     </div>
